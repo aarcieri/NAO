@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="test_parlato-4e8048" installOnlyAtStartup="false" version="0.0.0">
+ <names>
+  <name lang="en_US">Untitled</name>
+  <name lang="it_IT">test_parlato</name>
+ </names>
+ <supportedLanguages>
+  <language>it_IT</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>it_IT</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="it_IT">parla</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+  </dialogContent>
+ </contents>
+ <requirements>
+  <robotRequirement/>
+ </requirements>
+</package>
