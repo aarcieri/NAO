@@ -1,3 +1,14 @@
 La versione a 64 bit non parte su alcuni computer,
 una soluzione sembra sia installare il runtime C++ 2013:
 lanciare "vcredist_x64"
+
+Software
+--------
+
+choregraphe-suite-2.8.6.23-win64-vs2015-setup
+
+choregraphe-suite-2.1.4.13-win32-setup
+
+robot-settings-2.8.6.23-win64-vs2015-setup
+
+
